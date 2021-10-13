@@ -27,7 +27,7 @@ function oddAndEvenInFifteen() {
 
 //3
 function assignGrade(int) {
-    if (100 === int || int >= 90) {
+    if (100 === int || int >= 91) {
         return "A";
     } else if (90 === int || int >= 81) {
         return "B";
@@ -61,7 +61,7 @@ function assignGrade(int) {
 // }
 
 // Call.
-console.log(sumOfFourAndSix());
-oddAndEvenInFifteen();
-console.log(assignGrade(95));
+// console.log(sumOfFourAndSix());
+// oddAndEvenInFifteen();
+console.log(assignGrade(70));
 
